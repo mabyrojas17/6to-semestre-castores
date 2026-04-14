@@ -1,1 +1,33 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CV Maby Rojas</title>
+
+<!-- Font Awesome para iconos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+/* Columna izquierda */
+.sidebar {
+  background-color: #E6B8BE;
+  width: 35%;
+  padding: 20px;
+  color: #333;
+}
+
+/* Columna derecha */
+.main {
+  background-color: #F2F2F2;
+  width: 65%;
+  padding: 40px;
+  color: #333;
+}
+
+
 
