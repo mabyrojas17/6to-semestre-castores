@@ -1,99 +1,178 @@
 
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>CV - Maby Rojas</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
+
     <div class="cv-page">
+
+        
+
         <header class="header">
+
             <div class="photo-container">
-                <img src="Perifl.jpeg" alt="Maby Rojas" class="profile-photo">
+
+                <img src="perfil.jpg" alt="Maby Rojas" class="profile-photo">
+
             </div>
+
             <div class="name-container">
+
                 <h1>MABY<br>ROJAS</h1>
+
             </div>
+
         </header>
 
         <div class="content-wrapper">
+
+            
+
+            <!-- COLUMNA IZQUIERDA -->
+
             <aside class="left-column">
-                <section>
-                    <div class="section-title">
-                        <img src="Acerca de mi.jpeg" alt="" class="small-icon"> 
-                        <h3>SOBRE MÍ</h3>
-                    </div>
-                    <ul class="bullet-list">
-                        <li>Me gustan mucho los deportes de contacto.</li>
-                        <li>Soy buena hablando enfrente de muchas personas tanto en inglés como en español.</li>
-                        <li>Tengo habilidades culinarias buenas.</li>
-                        <li>Me gusta preparar postres y las actividades al aire libre.</li>
-                    </ul>
-                </section>
 
                 <section>
-                    <div class="section-title">
-                        <img src="Telefono.jpeg" alt="" class="small-icon"> 
-                        <h3>CONTACTO</h3>
-                    </div>
+
+                    <h3>INFORMACIÓN</h3>
+
                     <ul>
-                        <li>Celular: 6677917323</li>
-                        <li>Correo: mabydrojas17@gmail.com</li>
-                        <li>Ubicación: Lic. Primo de Verdad 306</li>
+
+                        <li>Buena en oratoria</li>
+
+                        <li>Facilidad para viajar</li>
+
+                        <li>3 certificaciones de inglés</li>
+
                     </ul>
+
                 </section>
 
                 <section>
-                    <div class="section-title">
-                        <img src="Estudio.jpeg" alt="" class="small-icon"> 
-                        <h3>INFORMACIÓN</h3>
-                    </div>
-                    <ul class="bullet-list">
-                        <li>Buena en oratoria</li>
-                        <li>Facilidades para viajar</li>
-                        <li>3 certificaciones de inglés</li>
+
+                    <h3>CONTACTO</h3>
+
+                    <ul>
+
+                        <li>Teléfono: 6677917323</li>
+
+                        <li>Correo: mabyrojas17@gmail.com</li>
+
+                        <li>Dirección: Lic. Primo de Verdad 306</li>
+
                     </ul>
-                    <p class="mt-10"><strong>Idiomas:</strong> Español, Inglés</p>
+
                 </section>
+
             </aside>
 
+            <!-- COLUMNA DERECHA -->
+
             <main class="right-column">
+
                 <section>
-                    <div class="section-title">
-                        <img src="ExL.jpeg" alt="" class="small-icon"> 
-                        <h3>FUTURA DISEÑADORA GRÁFICA</h3>
-                    </div>
-                    <h4>Estudio Shonos (Agosto 2026 - Julio 2030)</h4>
-                    <ul class="bullet-list">
+
+                    <h3>SOBRE MÍ</h3>
+
+                    <ul>
+
+                        <li>Me gustan mucho los deportes de contacto</li>
+
+                        <li>Soy buena hablando enfrente de muchas personas</li>
+
+                        <li>Hablo inglés y español</li>
+
+                        <li>Tengo habilidades culinarias</li>
+
+                        <li>Me gusta preparar postres y actividades al aire libre</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>FUTURA DISEÑADORA GRÁFICA</h3>
+
+                    <p>Estudio Shonos (Agosto 2026 - Julio 2030)</p>
+
+                    <ul>
+
                         <li>Jefa de equipo de diseñadores gráficos</li>
+
                         <li>Diseño de plantillas</li>
-                        <li>Formaciones al equipo</li>
+
+                        <li>Formación de equipo</li>
+
                     </ul>
+
                 </section>
 
                 <section>
+
                     <h3>FORMACIÓN</h3>
-                    <p><strong>Máster en Marketing Digital</strong><br>
-                    2032-2034 | Máster de marketing digital.</p>
-                    
-                    <p><strong>Grado en Diseño Gráfico</strong><br>
-                    2035-2037 | Grado en diseño y fotografía.</p>
+
+                    <p><strong>Máster en Marketing Digital</strong> (2032 - 2034)</p>
+
+                    <p>Máster de marketing digital</p>
+
+                    <p><strong>Grado en Diseño Gráfico</strong> (2035 - 2037)</p>
+
+                    <p>Diseño y fotografía</p>
+
                 </section>
 
                 <section>
-                    <h3>HERRAMIENTAS</h3>
-                    <ul class="bullet-list">
-                        <li>Software de edición</li>
-                        <li>Software de vídeo</li>
-                        <li>Edición fotográfica</li>
-                        <li>Edición de vídeo</li>
-                    </ul>
-                </section>
-            </main>
-        </div>
-    </div>
-</body>
-</html>
 
+                    <h3>HERRAMIENTAS</h3>
+
+                    <ul>
+
+                        <li>Software de edición</li>
+
+                        <li>Software de video</li>
+
+                        <li>Edición fotográfica</li>
+
+                        <li>Edición de video</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>IDIOMAS</h3>
+
+                    <ul>
+
+                        <li>Español</li>
+
+                        <li>Inglés</li>
+
+                    </ul>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
