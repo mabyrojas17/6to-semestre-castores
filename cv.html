@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Maby Dellanira Rojas Lugo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,19 +12,22 @@
 
     <div class="cv-page">
         <div class="content-wrapper">
+            
             <aside class="left-column">
                 <div class="photo-container">
                     <img src="maby.png" alt="Maby Rojas" class="profile-photo">
                 </div>
-                <section>
+
+                <section class="sidebar-section">
                     <h3>INFORMACIÓN</h3>
-                    <ul>
+                    <ul class="info-list">
                         <li>Buena en oratoria</li>
                         <li>Facilidades para viajar</li>
                         <li>3 certificaciones de inglés</li>
                     </ul>
                 </section>
-                <section>
+
+                <section class="sidebar-section">
                     <h3>CONTACTO</h3>
                     <ul class="contact-list">
                         <li><i class="fas fa-phone"></i> 6677917323</li>
@@ -36,13 +39,15 @@
 
             <main class="right-column">
                 <header class="name-container">
-                    <h1>Maby Dellanira<br>Rojas Lugo</h1>
-                    <div class="name-underline"></div>
+                    <div class="name-wrapper">
+                        <h1>Maby Dellanira<br>Rojas Lugo</h1>
+                        <div class="name-underline"></div>
+                    </div>
                 </header>
 
                 <section>
-                    <h3 class="rosa">SOBRE MÍ</h3>
-                    <ul>
+                    <h3 class="section-title">SOBRE MÍ</h3>
+                    <ul class="main-list">
                         <li>Me gustan mucho los deportes de contacto</li>
                         <li>Soy buena hablando enfrente de muchas personas.</li>
                         <li>Hablo inglés y español</li>
@@ -52,9 +57,9 @@
                 </section>
 
                 <section>
-                    <h3 class="rosa">FUTURA DISEÑADORA GRÁFICA</h3>
-                    <p><strong>Estudio Shonos (Agosto 2026 - Julio 2030)</strong></p>
-                    <ul>
+                    <h3 class="section-title">FUTURA DISEÑADORA GRÁFICA</h3>
+                    <p class="job-title">Estudio Shonos (Agosto 2026 - Julio 2030)</p>
+                    <ul class="main-list">
                         <li>Jefa de equipo de diseñadores gráficos</li>
                         <li>Diseño de plantillas</li>
                         <li>Formaciones al equipo</li>
@@ -62,17 +67,39 @@
                 </section>
 
                 <section>
-                    <h3 class="rosa">FORMACIÓN</h3>
-                    <p><strong>Máster en Marketing Digital</strong> (2032-2034)</p>
-                    <p>Máster de marketing digital.</p>
-                    <p><strong>Grado en Diseño Gráfico</strong> (2035-2037)</p>
-                    <p>Grado en diseño y fotografía</p>
+                    <h3 class="section-title">FORMACIÓN</h3>
+                    <div class="formacion-item">
+                        <p><strong>Máster en Marketing Digital</strong> (2032-2034)</p>
+                        <p>Máster de marketing digital.</p>
+                    </div>
+                    <div class="formacion-item">
+                        <p><strong>Grado en Diseño Gráfico</strong> (2035-2037)</p>
+                        <p>Grado en diseño y fotografía</p>
+                    </div>
                 </section>
+
+                <div class="bottom-grid">
+                    <section>
+                        <h3 class="section-title">HERRAMIENTAS</h3>
+                        <ul class="main-list">
+                            <li>Software de edición</li>
+                            <li>Software de video</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3 class="section-title">IDIOMAS</h3>
+                        <ul class="main-list">
+                            <li>Español</li>
+                            <li>Inglés</li>
+                        </ul>
+                    </section>
+                </div>
             </main>
         </div>
     </div>
 
 </body>
 </html>
+
 
 <link rel="stylesheet" href="style.css">
