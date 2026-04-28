@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Maby Dellanira Rojas Lugo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="cv-page">
-        <div class="content-wrapper">
-            
-            <aside class="left-column">
-                <div class="photo-container">
-                    <img src="maby.png" alt="Maby Rojas" class="profile-photo">
+        <header class="header">
+            <div class="photo-container">
+                <img src="maby.png" alt="Maby Rojas" class="profile-photo">
+            </div>
+            <div class="name-container">
+                <div class="name-wrapper">
+                    <h1>Maby Dellanira<br>Rojas Lugo</h1>
+                    <div class="name-underline"></div>
                 </div>
+            </div>
+        </header>
 
-                <section class="sidebar-section">
+        <div class="content-wrapper">
+            <aside class="left-column">
+                <section>
                     <h3>INFORMACIÓN</h3>
                     <ul class="info-list">
                         <li>Buena en oratoria</li>
@@ -27,7 +34,7 @@
                     </ul>
                 </section>
 
-                <section class="sidebar-section">
+                <section>
                     <h3>CONTACTO</h3>
                     <ul class="contact-list">
                         <li><i class="fas fa-phone"></i> 6677917323</li>
@@ -38,16 +45,9 @@
             </aside>
 
             <main class="right-column">
-                <header class="name-container">
-                    <div class="name-wrapper">
-                        <h1>Maby Dellanira<br>Rojas Lugo</h1>
-                        <div class="name-underline"></div>
-                    </div>
-                </header>
-
                 <section>
-                    <h3 class="section-title">SOBRE MÍ</h3>
-                    <ul class="main-list">
+                    <h3>SOBRE MÍ</h3>
+                    <ul>
                         <li>Me gustan mucho los deportes de contacto</li>
                         <li>Soy buena hablando enfrente de muchas personas.</li>
                         <li>Hablo inglés y español</li>
@@ -57,9 +57,9 @@
                 </section>
 
                 <section>
-                    <h3 class="section-title">FUTURA DISEÑADORA GRÁFICA</h3>
-                    <p class="job-title">Estudio Shonos (Agosto 2026 - Julio 2030)</p>
-                    <ul class="main-list">
+                    <h3>FUTURA DISEÑADORA GRÁFICA</h3>
+                    <p class="subtitle">Estudio Shonos (Agosto 2026 - Julio 2030)</p>
+                    <ul class="compact-list">
                         <li>Jefa de equipo de diseñadores gráficos</li>
                         <li>Diseño de plantillas</li>
                         <li>Formaciones al equipo</li>
@@ -67,7 +67,7 @@
                 </section>
 
                 <section>
-                    <h3 class="section-title">FORMACIÓN</h3>
+                    <h3>FORMACIÓN</h3>
                     <div class="formacion-item">
                         <p><strong>Máster en Marketing Digital</strong> (2032-2034)</p>
                         <p>Máster de marketing digital.</p>
@@ -79,16 +79,19 @@
                 </section>
 
                 <div class="bottom-grid">
-                    <section>
-                        <h3 class="section-title">HERRAMIENTAS</h3>
-                        <ul class="main-list">
+                    <section class="tools">
+                        <h3>HERRAMIENTAS</h3>
+                        <ul class="compact-list">
                             <li>Software de edición</li>
                             <li>Software de video</li>
+                            <li>Edición fotográfica</li>
+                            <li>Edición de video</li>
                         </ul>
                     </section>
-                    <section>
-                        <h3 class="section-title">IDIOMAS</h3>
-                        <ul class="main-list">
+
+                    <section class="languages">
+                        <h3>IDIOMAS</h3>
+                        <ul class="compact-list">
                             <li>Español</li>
                             <li>Inglés</li>
                         </ul>
@@ -100,6 +103,5 @@
 
 </body>
 </html>
-
 
 <link rel="stylesheet" href="style.css">
