@@ -1,1 +1,323 @@
+index.html
+<!DOCTYPE html>
 
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV - Maby Rojas</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="cv-page">
+
+        
+
+        <header class="header">
+
+            <div class="photo-container">
+
+                <img src="perfil.jpg" alt="Maby Rojas" class="profile-photo">
+
+            </div>
+
+            <div class="name-container">
+
+                <h1>MABY<br>ROJAS</h1>
+
+            </div>
+
+        </header>
+
+        <div class="content-wrapper">
+
+            
+
+            <!-- COLUMNA IZQUIERDA -->
+
+            <aside class="left-column">
+
+                <section>
+
+                    <h3>INFORMACIÓN</h3>
+
+                    <ul>
+
+                        <li>Buena en oratoria</li>
+
+                        <li>Facilidad para viajar</li>
+
+                        <li>3 certificaciones de inglés</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>CONTACTO</h3>
+
+                    <ul>
+
+                        <li>Teléfono: 6677917323</li>
+
+                        <li>Correo: mabyrojas17@gmail.com</li>
+
+                        <li>Dirección: Lic. Primo de Verdad 306</li>
+
+                    </ul>
+
+                </section>
+
+            </aside>
+
+            <!-- COLUMNA DERECHA -->
+
+            <main class="right-column">
+
+                <section>
+
+                    <h3>SOBRE MÍ</h3>
+
+                    <ul>
+
+                        <li>Me gustan mucho los deportes de contacto</li>
+
+                        <li>Soy buena hablando enfrente de muchas personas</li>
+
+                        <li>Hablo inglés y español</li>
+
+                        <li>Tengo habilidades culinarias</li>
+
+                        <li>Me gusta preparar postres y actividades al aire libre</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>FUTURA DISEÑADORA GRÁFICA</h3>
+
+                    <p>Estudio Shonos (Agosto 2026 - Julio 2030)</p>
+
+                    <ul>
+
+                        <li>Jefa de equipo de diseñadores gráficos</li>
+
+                        <li>Diseño de plantillas</li>
+
+                        <li>Formación de equipo</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>FORMACIÓN</h3>
+
+                    <p><strong>Máster en Marketing Digital</strong> (2032 - 2034)</p>
+
+                    <p>Máster de marketing digital</p>
+
+                    <p><strong>Grado en Diseño Gráfico</strong> (2035 - 2037)</p>
+
+                    <p>Diseño y fotografía</p>
+
+                </section>
+
+                <section>
+
+                    <h3>HERRAMIENTAS</h3>
+
+                    <ul>
+
+                        <li>Software de edición</li>
+
+                        <li>Software de video</li>
+
+                        <li>Edición fotográfica</li>
+
+                        <li>Edición de video</li>
+
+                    </ul>
+
+                </section>
+
+                <section>
+
+                    <h3>IDIOMAS</h3>
+
+                    <ul>
+
+                        <li>Español</li>
+
+                        <li>Inglés</li>
+
+                    </ul>
+
+                </section>
+
+            </main>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+style.css
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* FONDO GENERAL */
+body {
+    background-color: #f5f5f5;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.cv-page {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+.header {
+    display: flex;
+}
+
+/* FOTO */
+.photo-container {
+    width: 40%;
+    background-color: #e8b8c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+/* NOMBRE */
+.name-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-container h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+/* CONTENIDO */
+.content-wrapper {
+    display: flex;
+}
+
+/* COLUMNA IZQUIERDA */
+.left-column {
+    width: 35%;
+    background-color: #e8b8c1;
+    padding: 30px;
+}
+
+.left-column h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.left-column ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.left-column li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* COLUMNA DERECHA */
+.right-column {
+    width: 65%;
+    padding: 30px;
+}
+
+/* SECCIONES */
+section {
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #d17b8f;
+    border-bottom: 2px solid #e8b8c1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* LISTAS */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* TEXTO */
+p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .photo-container, .name-container {
+        width: 100%;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
