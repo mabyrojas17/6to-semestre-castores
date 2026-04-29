@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Adolfo Rey Sabino V.</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 35%;
+            background-color: #3e5673; /* Azul del CV original */
+            color: white;
+            padding: 40px 25px;
+            box-sizing: border-box;
+        }
+        .main {
+            width: 65%;
+            background-color: white;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        .photo-placeholder {
+            width: 160px;
+            height: 200px;
+            background-color: #555;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact-info {
+            margin-bottom: 40px;
+            font-size: 14px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .sidebar-section {
+            margin-bottom: 35px;
+        }
+        .sidebar-title {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 15px;
+        }
+        .sidebar-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+        }
+        .sidebar-list li {
+            margin-bottom: 8px;
+            padding-left: 15px;
+            position: relative;
+        }
+        .sidebar-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+        .header-name {
+            color: #1a3a5a;
+            font-size: 36px;
+            margin: 0;
+            font-weight: bold;
+        }
+        .header-line {
+            height: 15px;
+            background-color: #3e5673;
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 50px;
+        }
+        .main-section-header {
+            border: 1.5px solid #3e5673;
+            padding: 6px 20px;
+            display: inline-block;
+            color: #3e5673;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 25px;
+            width: 90%;
+        }
+        .content-block {
+            margin-bottom: 35px;
+            position: relative;
+            padding-left: 25px;
+            border-left: 2px solid #3e5673;
+        }
+        .dot {
+            position: absolute;
+            left: -8px;
+            top: 5px;
+            width: 14px;
+            height: 14px;
+            background-color: #3e5673;
+            border-radius: 50%;
+        }
+        h3 {
+            color: #1a3a5a;
+            text-transform: uppercase;
+            font-size: 17px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .main-text {
+            font-size: 14px;
+            text-align: justify;
+        }
+        .main-list {
+            list-style: none;
+            padding: 0;
+            font-size: 14px;
+        }
+        .main-list li {
+            margin-bottom: 6px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .main-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+        .footer-box {
+            border: 1px solid #ccc;
+            height: 35px;
+            width: 95%;
+            margin-bottom: 25px;
+        }
+        .footer-date {
+            font-style: italic;
+            color: #555;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="photo-placeholder">FOTO</div>
+
+        <div class="contact-info">
+            <p>911-234-567</p>
+            <p>adolsabi700@gmail.com</p>
+            <p>www.unsitiogenial.es</p>
+            <p>Ixtlahuaca, estado de México</p>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">Habilidades</div>
+            <ul class="sidebar-list">
+                <li>Responsabilidad</li>
+                <li>Puntualidad</li>
+                <li>Trabajo en equipo</li>
+                <li>Disciplina</li>
+                <li>Aprendizaje rápido</li>
+                <li>Adaptabilidad</li>
+                <li>Organización</li>
+                <li>Comunicación básica</li>
+                <li>Condición física</li>
+                <li>Trabajo bajo presión</li>
+                <li>Práctica de fútbol y actividades deportivas</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">Idiomas</div>
+            <ul class="sidebar-list">
+                <li>Español nativo</li>
+                <li>Inglés Nivel Alto</li>
+                <li>Francés Nivel Medio</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <div class="sidebar-title">Información</div>
+            <ul class="sidebar-list">
+                <li>Coche Propio</li>
+                <li>Disponibilidad para viajar</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1 class="header-name">Adolfo Rey Sabino V.</h1>
+        <div class="header-line"></div>
+
+        <div class="main-section-header">Experiencia</div>
+
+        <div class="content-block">
+            <div class="dot"></div>
+            <h3>Perfil Personal</h3>
+            <p class="main-text">
+                Joven responsable y comprometido, con habilidades para manejar desde temprana edad. 
+                Me gusta aprender, soy disciplinado y me caracterizo por hacer las cosas bien. 
+                También disfruto actividades recreativas y el trabajo en equipo. Busco seguir 
+                desarrollándome académica y profesionalmente.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <div class="dot"></div>
+            <h3>Experiencia</h3>
+            <ul class="main-list">
+                <li>Apoyo en actividades generales</li>
+                <li>Manejo básico de herramientas</li>
+                <li>Experiencia en conducción desde temprana edad</li>
+                <li>Actividad física constante (ejercicio)</li>
+                <li>Trabajo en equipo</li>
+                <li>Apoyo en organización de tareas</li>
+                <li>Cumplimiento de responsabilidades asignadas</li>
+                <li>Aprendizaje rápido en nuevas actividades</li>
+                <li>Buena actitud y disposición para trabajar</li>
+                <li>Adaptación a diferentes entornos</li>
+            </ul>
+        </div>
+
+        <div class="footer-box"></div>
+
+        <div class="content-block" style="border-left: 2px solid #3e5673;">
+            <div class="dot"></div>
+            <div class="footer-date">Ciclo escolar 2023 - 2026</div>
+        </div>
+    </div>
+</body>
+</html>
