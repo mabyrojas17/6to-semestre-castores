@@ -154,7 +154,7 @@
 </head>
 <body>
     <div class="sidebar">
-        <div class=adolfo.png>FOTO</div>
+        <div <img src="adolfo.jpg" />
 
         <div class="contact-info">
             <p>911-234-567</p>
